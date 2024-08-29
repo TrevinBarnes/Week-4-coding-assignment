@@ -1,7 +1,10 @@
 
 console.log('1. Create an array of int called ages that contains the following values: 3, 9, 23, 64, 2, 8, 28, 93.')
-
+    const ages=(3, 9, 23, 64, 2, 8, 28, 93) //listed array
 console.log('a. Programmatically subtract the value of the first element in the array from the value in the last element of the array (i.e. do not use ages[7] in your code). Print the result to the console. ')
+    // need to call the array "ages", then pull the first element in the array and subtract it from the last.
+    agesSubtracted=(ages[0]-(ages.length-1))
+    console.log(agesSubtracted)  
 
 console.log('b. Create a new array of int called ages2 with 9 elements (ages2 will be longer than the ages array, and have more elements).  ')
 
